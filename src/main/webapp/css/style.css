@@ -1,0 +1,72 @@
+body{
+    font-family: Arial;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+table tr td{
+    font-size: 34px;
+    height: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+p{
+    font-size: 20px;
+}
+
+.calendar-table tr td {
+    border: 1px solid #000;
+    width: 100px;
+}
+
+.selected{
+    background-color: #add8e6;
+}
+
+.current{
+    /*border: 3px solid red !important;*/
+    outline:4px solid red !important;
+    outline-offset:-4px;
+}
+
+.month-names-table{
+    width: 100%;
+    position: relative;
+    top: 1px;
+}
+
+.month-names-table tr td{
+    width: 234px;
+    border: 1px solid #000;
+    /*border-top: 1px solid #000;*/
+    /*border-right: 1px solid #000;*/
+}
+
+.bordered{
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.sn{
+    color: red;
+}
+
+#currentDate {
+    font-size: 25px;
+    font-weight: normal;
+    height: 70px;
+    padding-left: 10px;
+    text-align: left;
+}
